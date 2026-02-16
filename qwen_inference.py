@@ -1,8 +1,9 @@
+import torch
 from decord import VideoReader
 from transformers import  Qwen2VLForConditionalGeneration, AutoTokenizer, AutoProcessor
 from qwen_vl_utils import process_vision_info
 import numpy as np
-import torch
+
 
 def inference(video_path, prompt):
     device = "cuda" if torch.cuda.is_available() else "cpu"
