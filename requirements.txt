@@ -1,0 +1,6 @@
+torch
+torchvision
+transformers
+qwen_vl_utils
+decord
+accelerate
