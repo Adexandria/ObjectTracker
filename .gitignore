@@ -1,0 +1,4 @@
+.venv
+*.zip
+non_anonymized
+__pycache__
